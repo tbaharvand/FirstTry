@@ -40,5 +40,18 @@
             tools:ignore="MissingConstraints" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/recyclerView_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recycler View Test"/>
+    </LinearLayout>
+
 
 </LinearLayout>
