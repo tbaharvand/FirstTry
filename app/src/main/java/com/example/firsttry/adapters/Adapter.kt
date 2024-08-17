@@ -1,4 +1,4 @@
-package com.example.firsttry
+package com.example.firsttry.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.firsttry.R
+import com.example.firsttry.models.NameModel
 
 class Adapter(private val itemsList : ArrayList<NameModel>) : RecyclerView.Adapter<Adapter.ViewHolder> (){
 

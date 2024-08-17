@@ -29,13 +29,13 @@ class MainActivity : AppCompatActivity() {
     recycler.setOnClickListener { startActivity(intentRecycler) }
 
     val fragment  = findViewById<Button>(R.id.fragment_btn)
-    val intentFragment = Intent(this, FragmentActivity::class.java)
-    fragment.setOnClickListener { startActivity(intentFragment) }
+    fragment.setOnClickListener { startActivity(Intent(this, FragmentActivity::class.java)) }
 
     val fragmentTest = findViewById<Button>(R.id.fragment_test)
-    val intentFragmentTest = Intent(this , FragmentTestActivity::class.java)
-    fragmentTest.setOnClickListener { startActivity(intentFragmentTest) }
+    fragmentTest.setOnClickListener { startActivity(Intent(this , FragmentTestActivity::class.java)) }
 
+    val recyclerViewTest =  findViewById<Button>(R.id.recyclerView_test)
+    recyclerViewTest.setOnClickListener { startActivity(Intent(this , RecyclerViewTestActivity::class.java)) }
 
 
     }

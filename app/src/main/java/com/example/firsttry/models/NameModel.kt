@@ -1,4 +1,4 @@
-package com.example.firsttry
+package com.example.firsttry.models
 
 data class NameModel(
     val iconImage:Int,

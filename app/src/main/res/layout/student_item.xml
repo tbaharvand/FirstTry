@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:id="@+id/student_image_iv"
+            android:contentDescription="student_image_iv"
+            android:src="@drawable/student"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/student_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name Family"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+
+</LinearLayout>
