@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 
     val recyclerViewTest =  findViewById<Button>(R.id.recyclerView_test)
     recyclerViewTest.setOnClickListener { startActivity(Intent(this , RecyclerViewTestActivity::class.java)) }
-
+//remove val
 
     }
 }
