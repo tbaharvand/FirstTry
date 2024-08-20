@@ -13,6 +13,9 @@
         android:theme="@style/Theme.FirstTry"
         tools:targetApi="31">
         <activity
+            android:name=".TabActivity"
+            android:exported="false" />
+        <activity
             android:name=".RecyclerViewTestActivity"
             android:exported="false" />
         <activity

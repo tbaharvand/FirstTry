@@ -2,8 +2,8 @@ package com.example.firsttry
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.example.firsttry.FragmentClass.Fragment1
-import com.example.firsttry.FragmentClass.Fragment2
+import com.example.firsttry.fragmentClass.Fragment1
+import com.example.firsttry.fragmentClass.Fragment2
 import com.example.firsttry.databinding.ActivityFragmentBinding
 
 class FragmentActivity : AppCompatActivity() {

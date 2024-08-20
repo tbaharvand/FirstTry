@@ -4,7 +4,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
+    android:layout_margin="8dp"
     android:orientation="vertical"
     tools:context=".MainActivity"
     tools:ignore="HardcodedText">
@@ -16,20 +16,12 @@
         android:orientation="horizontal"
         tools:ignore="UselessParent">
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/recyclerView_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="RecyclerView"
-            tools:ignore="MissingConstraints" />
-
-        <Button
-            android:id="@+id/fragment_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:text="Fragment"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="ButtonStyle,MissingConstraints" />
 
         <Button
             android:id="@+id/fragment_test"
@@ -37,7 +29,16 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:text="Fragment Test"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
+        <Button
+            android:id="@+id/fragment_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Fragment"
+            tools:ignore="ButtonStyle,MissingConstraints" />
+
     </LinearLayout>
 
 
@@ -51,8 +52,15 @@
             android:id="@+id/recyclerView_test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Recycler View Test"/>
+            android:text="Recycler View Test"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/tab_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Tab"
+            tools:ignore="ButtonStyle" />
     </LinearLayout>
-
-
 </LinearLayout>
