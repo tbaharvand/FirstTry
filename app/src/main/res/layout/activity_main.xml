@@ -62,5 +62,13 @@
             android:layout_marginStart="5dp"
             android:text="Tab"
             tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/classes_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Classes Tab"
+            tools:ignore="ButtonStyle" />
     </LinearLayout>
 </LinearLayout>

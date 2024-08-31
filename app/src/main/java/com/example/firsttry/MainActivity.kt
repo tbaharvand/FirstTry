@@ -39,7 +39,10 @@ class MainActivity : AppCompatActivity() {
 
     val tab = findViewById<Button>(R.id.tab_btn)
     tab.setOnClickListener { startActivity(Intent(this, TabActivity::class.java)) }
-//remove val
+
+    val classesTab = findViewById<Button>(R.id.classes_tab)
+    classesTab.setOnClickListener { startActivity(Intent(this,ClassesTab::class.java)) }
+
 
     }
 }
